@@ -345,10 +345,10 @@ export default function Home() {
 
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Gradblocks!</h1>
+          <h1 className={styles.title}>Welcome to Grad Blocks!</h1>
           <div className={styles.description}>Welcome to the DAO!</div>
           <div className={styles.description}>
-            Your CryptoDevs NFT Balance: {nftBalance}
+            Your Grad Blocks NFT Balance: {nftBalance}
             <br />
             Treasury Balance: {formatEther(treasuryBalance)} ETH
             <br />
