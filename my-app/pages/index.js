@@ -338,14 +338,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>CryptoDevs DAO</title>
+        <title>Grad Blocks DAO</title>
         <meta name="description" content="CryptoDevs DAO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Gradblocks!</h1>
           <div className={styles.description}>Welcome to the DAO!</div>
           <div className={styles.description}>
             Your CryptoDevs NFT Balance: {nftBalance}
@@ -376,7 +376,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by OxSlayers
       </footer>
     </div>
   );
